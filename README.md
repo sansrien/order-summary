@@ -1,2 +1,2 @@
 # order-summary
-Responsive Order Summary challenge from frontendmentor.io 
+Responsive Order Summary challenge from frontendmentor.io using HTML and CSS
