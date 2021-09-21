@@ -1,0 +1,158 @@
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:2000px auto;
+    background-position: 50% -40%;
+    background-color:#e0e8ff;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 100px;
+    font-family: 'Red Hat Display', sans-serif;
+  
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    width:450px;
+    height: 690px;
+    border-radius: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+.card-image{
+    border-top-left-radius:30px ;
+    border-top-right-radius:30px ;
+    width:100%;
+}
+.text-content{
+    margin:5% 0%;
+}
+h1{
+    font-weight: 900;
+    font-size: 1.7rem;
+    color:#172143;
+}
+
+p{
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5rem;
+    margin:0;
+    padding:0;
+}
+.desc{
+    margin:5% 10%;
+    
+}
+
+.plan-details{
+    margin: 0 11%;
+    border-radius: 10px;
+    margin-bottom:7%;
+    background-color: #f8f9fe;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+#music-icon{
+    margin: 5%;
+    margin-right:5%;
+    padding: 1%;
+}
+
+.plan-text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+h2{
+  font-weight:900;
+  font-size: 17px;
+  line-height: 0; 
+  color: #172143;
+}
+
+#change-link{
+    font-weight: bold;
+    margin-left:25%;
+    font-size: 0.9rem;
+    color:#412bd8;
+}
+
+#change-link:hover, #change-link:active{
+    text-decoration: none;
+    color:#7e73e2;
+    cursor: pointer;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+#proceed-payment{
+    padding: 3.8% 0;
+    width: 78%;
+    border-radius: 10px;
+    background-color: #382ae1;
+    font-size: 14px;;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 32px;
+    box-shadow: 0 20px 15px #dedbf8;
+}
+#proceed-payment:active, #proceed-payment:hover{
+    background-color: #766cf1;
+    cursor: pointer;
+}
+#cancel{
+    font-weight: 900 ;
+    color:hsl(224, 23%, 55%);
+}
+
+#cancel:active, #cancel:hover{
+    color:black;
+    cursor: pointer
+}
+.attribution {
+    margin-top: 30px;
+} 
+
+@media (max-width: 500px){
+    .container{
+        width:320px;
+        height: 610px;
+
+    }
+    .plan-details{
+        margin: 0 8%;
+        margin-bottom: 10%;
+    }
+    .plan-text{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+    #proceed-payment{
+        width: 85%;
+        padding:
+
+    }
+   
+    #change-link{
+        font-weight: bold;
+        margin-left:10%;
+        font-size: 0.9rem;
+        color:#412bd8;
+    }
+}
+/* 2h40m */
