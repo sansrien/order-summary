@@ -25,7 +25,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 100px;
 }
 .card-image{
     border-top-left-radius:30px ;
@@ -90,7 +90,7 @@ h2{
     color:#412bd8;
 }
 
-#change-link:hover, #change-link:active{
+#change-link:hover{
     text-decoration: none;
     color:#7e73e2;
     cursor: pointer;
@@ -110,7 +110,7 @@ button{
     margin-bottom: 32px;
     box-shadow: 0 20px 15px #dedbf8;
 }
-#proceed-payment:active, #proceed-payment:hover{
+#proceed-payment:hover{
     background-color: #766cf1;
     cursor: pointer;
 }
@@ -119,7 +119,7 @@ button{
     color:hsl(224, 23%, 55%);
 }
 
-#cancel:active, #cancel:hover{
+#cancel:hover{
     color:black;
     cursor: pointer
 }
@@ -131,6 +131,7 @@ button{
     .container{
         width:320px;
         height: 610px;
+        margin-top:50px;
 
     }
     .plan-details{
